@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
+        rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" 
+        crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+        <!--font awesome cdn-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" 
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="css/style.css">
+        <title>Resume Website</title>
+    </head>
+<body class="row bg-dark text-light position-relative w-100 vh-100 text-shadow">
+        <!--NAVIGATION-->
+        <nav class="navbar navbar-dark bg-dark vh-100 col-1 d-md-none" style="width: 100px;">
+        <div class="container">
+          <div>
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0 fs-4">
+              <li class="nav-item" data-bs-toggle="tooltip" data-bs-placement="right" title="Home">
+                <a href="#" class="nav-link active" aria-current="page">
+                <i class="bi-house text-success"></i>
+              </a>
+              </li>
+              <li class="nav-item" data-bs-toggle="tooltip" data-bs-placement="right" title="About">
+                <a href="#About" class="nav-link">
+                <i class="bi-person"></i>
+              </a>
+              </li>
+              <li class="nav-item" data-bs-toggle="tooltip" data-bs-placement="right" title="Services">
+                <a href="#Services" class="nav-link">
+                <i class="bi-briefcase"></i>
+              </a>
+              </li>
+              <li class="nav-item" data-bs-toggle="tooltip" data-bs-placement="right" title="Contact">
+                <a href="#Contact" class="nav-link">
+                <i class="bi-telephone"></i>
+              </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        </nav>
+        <!--HEADER-->
+        <header class="position-relative vh-100 col-10 col-md-4" 
+        style="background: url(https://source.unsplash.com/SvKJUXV_5cQ) center/cover no-repeat;">
+      <div class="position-relative top-50 mt-5 row row-cols-1 text-center">
+        <h2 class="display-1 fw-bold lh-lg">Joe Man</h2>
+        <h4 class="font-monospace">Developer</h4>
+        <div class="row mt-3 mx-auto">
+          <ul class="row list-unstyled fs-5">
+            <li class="col"><a href=""><i class="bi bi-facebook text-light"></i></a></li>
+            <li class="col"><a href=""><i class="bi bi-github text-light"></i></a></li>
+            <li class="col"><a href=""><i class="bi bi-linkedin text-light"></i></a></li>
+            <li class="col"><a href=""><i class="bi bi-whatsapp text-light"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      </header>
+        <!--MAIN-->
+        <main class="row col-12 col-md-8">
+        <!--MAIN > ABOUT-->
+        <section id="About" class="ms-3">
+          <h2 class="font-monospace mt-4">About Me</h2>
+          <div class="row col-12 text-success mt-3">
+            <div class="col">Exp / 10+ years</div>
+            <div class="col">Location / Berlin </div>
+            <div class="col">Domain / Freelance</div>
+          </div>
+          <p class="text-secondary mt 3">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+             Inventore deserunt necessitatibus nihil blanditiis cumque animi molestias consequatur quas enim 
+             voluptates accusantium reprehenderit consectetur,
+             vel molestiae! Necessitatibus iste voluptatem dolor fugiat.</p>
+          <!--CV BUTTON -->
+          <button class="btn btn-outline-success" type="button" data-bs-toggle="offcanvas" 
+          data-bs-target="#ocAbout" aria-controls="ocAbout">
+        CV
+        </button>
+        <!--CV CONTENT-->
+
+      <div class="offcanvas offcanvas-end w-75 bg-dark" tabindex="-1" id="ocAbout">
+        <div class="offcanvas-header">
+          <h5 class="text-success">Resume</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+          <h4 class="display-4 mb-3">Nobert B. Menyhart</h4>
+          <h4 class="display-6 mb-4 text-white-50">Full Stack Web Developer</h4>
+          <h4 class="display-6 mb-2 font-monospace">About Me</h4>
+          <p class="text-white-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Tempore incidunt similique impedit modi molestias in, fugit harum nobis corrupti aut, 
+            aspernatur labore dicta sequi cupiditate. Libero hic et sit consectetur.</p>
+          <h4 class="display-6 mb-2 font-monospace">Career Objectives</h4>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+            Eos alias, itaque veniam sint quos atque non dolorum, corporis, 
+            magnam illum tempora! Architecto natus officiis possimus, impedit nobis voluptatibus dolor quis!</p>
+            <h4 class="display-6 mb-2 font-monospace">Skills<small class="fs-6">(and still growing)</small></h4>
+            <p class="text-white-50">Trouble-shooting</p>
+            <div class="progress mb-1">
+              <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" style="width: 80%;"></div>
+            </div>
+            <p class="text-white-50">Critical Thinking</p>
+            <div class="progress mb-1">
+              <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" style="width: 95%;"></div>
+            </div>
+            <p class="text-white-50">Web designing</p>
+            <div class="progress mb-1">
+              <div class="progress-bar bg-success" role="progressbar" style="width: 100%;"></div>
+            </div>
+            <p class="text-white-50">Developing</p>
+            <div class="progress mb-1">
+              <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" style="width: 85%;"></div>
+            </div>
+            <p class="text-white-50">Active Learning</p>
+            <div class="progress mb-1">
+              <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" style="width: 77%;"></div>
+            </div>
+        </div>
+      </div>
+        </section>
+        <!--MAIN> SERVICES-->
+        <section id="Services" class="ms-3">
+          <h2 class="font-monospace mt-4">My services</h2>
+          <div class="row row-cols-1 row-cols-md-2">
+            <!--development-->
+            <div class="col card bg-transparent">
+              <div class="card-body">
+                <i class="bi bi-display h1 text-success"></i>
+                <h5 class="card-title mt-3">Development</h5>
+                <p class="card-text">Building a custom tailored solution based on your technical specification.</p>
+                <button class="btn btn-outline-success w-100" type="button" data-bs-toggle="offcanvas" data-bs-target="#oc_dev"
+                aria-controls="oc_dev">more...</button>
+                <!--development offcanvas-->
+                <div class="offcanvas offcanvas-end w-75 bg-dark" tabindex="-1" id="oc_dev">
+                  <div class="offcanvas-header">
+                    <h5 class="text-success">Web Development</h5>
+                    <button type="button" class="btn-close btn-close-white"
+                    data-bs-dismiss="offcanvas"></button>
+                  </div>
+                  <div class="offcanvas-body">
+                  <h4 class="display-4 mb-3">Who is a web developer</h4>
+                 
+                  <p class="text-white-50">A web developer is a programmer who specializes in, or is specifically engaged in,
+                    the development of World wide web applications using a client-server model. The applications typically
+                    use <i class="fab fa-html5"></i>HTML,<i class="fab fa-css-3-alt"></i>CSS and <i class="fab fa-js"></i>
+                    Javascript in the client,<i class="fab fa-php"></i>PHP,ASP.NET (C#), <i class="fab fa-python"></i> Python, 
+                    <i class="fab fa-node-js"></i> Node.Js, Go or <i class="fab fa-java"></i> in the server, and http for communication
+                    between client and server. A web content management system is often used to devlop and maintain web applications.
+                  </p>
+                  <h4 class="display-4 mb-3">Who is a front-end web developer</h4>
+                  <i class="fa-brands fa-html5 fa-3x me-3"></i>
+                  <i class="fa-brands fa-css3-alt fa-3x me-3"></i>
+                  <i class="fa-brands fa-js fa-3x me-3"></i>
+                  <i class="fa-brands fa-bootstrap fa-3x me-3"></i>
+                  <p class="text-white-50 mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Quibusdam dolor, cupiditate, autem doloribus iste illo dicta sit laborum corrupti quasi 
+                    deleniti ab non minus consequuntur fuga, repudiandae deserunt animi at.</p>
+                  <h4 class="display-4 mb-3">Who is a back-end web developer</h4>
+                  <i class="fa-brands fa-js fa-3x me-3"></i>
+                  <i class="fa-brands fa-php fa-3x me-3"></i>
+                  <i class="fa-brands fa-python fa-3x me-3"></i>
+                  <i class="fa-brands fa-node-js fa-3x me-3"></i>
+                  <p class="text-white-50 mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Quibusdam dolor, cupiditate, autem doloribus iste illo dicta sit laborum corrupti quasi 
+                    deleniti ab non minus consequuntur fuga, repudiandae deserunt animi at.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--seo-->
+            <div class="col card bg-transparent">
+              <div class="card-body">
+                <i class="bi bi-display h1 text-success"></i>
+                <h5 class="card-title mt-3">SEO</h5>
+                <p class="card-text">Building a custom tailored solution based on your technical specification.</p>
+                <button class="btn btn-outline-success w-100" type="button" data-bs-toggle="offcanvas" data-bs-target="#oc_seo"
+                aria-controls="oc_seo">more...</button>
+                <!--seo offcanvas-->
+                <div class="offcanvas offcanvas-end w-75 bg-dark" tabindex="-1" id="oc_seo">
+                  <div class="offcanvas-header">
+                    <h5 class="text-success">SEO</h5>
+                    <button type="button" class="btn-close btn-close-white"
+                    data-bs-dismiss="offcanvas"></button>
+                  </div>
+                  <div class="offcanvas-body">
+                    <i class="fab fa-searchengin fa-4x mb-4"></i>
+                    <h4 class="display-4 mb-3">What is SEO? </h4>
+                    <p class="text-white-50">
+                      Search engine optimization (SEO) is the process of improving the quality and quantity of Website
+                      traffic to a website or a web page from search engines.
+                    </p>
+                    <h4 class="display-4 mb-3">Do you need an SEO expert?</h4>
+                    <p class="text-white-50">An SEO expert is someone trained to improve your visibility on search
+                      engines. In addition to that, you may want to consider hiring an SEO professional that can help you 
+                      audit your pages. Deciding to hire an SEO is a big decision that can potentially improve your site and 
+                      save time. 
+                    </p>
+                    <h4 class="display-4 mb-3">Our SEO services:</h4>
+                    <ul class="text-white-50">
+                      <li>Review of your site structure or content</li>
+                      <li>Technical advice on website development: for example, hosting, redirects, error pages, use of 
+                        Javascript.
+                      </li>
+                      <li>Content development</li>
+                      <li>Management of online business development campaigns</li>
+                      <li>Keyword Research</li>
+                      <li>SEO trainings</li>
+                      <li>Expertise in specific markets and geographies</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--database-->
+            <div class="col card bg-transparent">
+              <div class="card-body">
+                <i class="bi bi-display h1 text-success"></i>
+                <h5 class="card-title mt-3">Database</h5>
+                <p class="card-text">Building a custom tailored solution based on your technical specification.</p>
+                <button class="btn btn-outline-success w-100" type="button" data-bs-toggle="offcanvas" data-bs-target="#oc_db"
+                aria-controls="oc_db">more...</button>
+                <!--database offcanvas-->
+                <div class="offcanvas offcanvas-end w-75 bg-dark" tabindex="-1" id="oc_db">
+                  <div class="offcanvas-header">
+                    <h5 class="text-success">Database</h5>
+                    <button type="button" class="btn-close btn-close-white"
+                    data-bs-dismiss="offcanvas"></button>
+                  </div>
+                  <div class="offcanvas-body">
+                    <i class="fas fa-database fa-4x mb-4"></i> 
+                    <h4 class="display-4 mb-3">What is Database?</h4>
+                    <p class="text-white-50">A database is an organized collection of structured information,or data,
+                      typically stored in a computer system. A database is usually controlled by a database management system(DBMS)
+                      ... most databases use structured query language (SQL) for writing and querying data.
+                    </p>
+                    <h4 class="display-4 mb-3">Database Managment System (DBMS)</h4>
+                    <p class="text-white-50">A database management system (DBMS) is a software package designed to define, manipulate
+                      ,retrieve and manage data in a database. A DBMS generally manipulates the data itself, the data format, field names
+                      , record structure and file structure. it also defines rules to validate and manipulate the data. 
+                    </p>
+                    <h4 class="display-4 mb-3">What Are The Types of Databases?</h4>
+                    <ul class="text-white-50">
+                      <li>NoSql databases</li>
+                      <li>Cloud databases</li>
+                      <li>Columnar databases</li>
+                      <li>Wide column databases</li>
+                      <li>Object Oriented Databases</li>
+                      <li>Key value databases</li>
+                      <li>Hierarchical databases</li>
+                      <li>Document databases</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--data security-->
+            <div class="col card bg-transparent">
+              <div class="card-body">
+                <i class="bi bi-display h1 text-success"></i>
+                <h5 class="card-title mt-3">Data Security</h5>
+                <p class="card-text">Building a custom tailored solution based on your technical specification.</p>
+                <button class="btn btn-outline-success w-100" type="button" data-bs-toggle="offcanvas" data-bs-target="#oc_ds"
+                aria-controls="oc_ds">more...</button>
+                <!--data offcanvas-->
+                <div class="offcanvas offcanvas-end w-75 bg-dark" tabindex="-1" id="oc_ds">
+                  <div class="offcanvas-header">
+                    <h5 class="text-success">Data Security</h5>
+                    <button type="button" class="btn-close btn-close-white"
+                    data-bs-dismiss="offcanvas"></button>
+                  </div>
+                  <div class="offcanvas-body">
+                <i class="fas fa-shield-alt fa-4x mb-4"></i>
+                <h4 class="display-4 mb-3">What is Data security?</h4>
+                <p class="text-white-50">Data security means protecting digital data, such as those in a database, from destructive
+                  forces and from the unwanted actions of unauthorized users, such as a cyberattack or a data breach. 
+                </p>
+                <h4 class="display-4 mb-3">What are Data Security standards (DSS)?</h4>
+                <p class="text-white-50">PCI DSS is a set of regulations created by 5 major payment card brands: Visa, MasterCard
+                  m American Express, Discover, and JCB. the latest version of PCI DSS (version 3.2) was released in April 2018 with 
+                  the council setting these requirements for any business that processes credit or debit card transactions. In a 
+                  nutshell, DSS requires that your organization is compliant with 12 general data security requirements that includes
+                  over 200 sub-requirements. The types of requirements and sub-requirements ultimately depend on your business and how
+                  many credit card transactions that you perform on a yearly basis. Just checking the PCI DSS compliance boxes isn't
+                  the best route totravel if your organization wants to ensure effective protection of every data security situation. 
+                </p>
+                <h4 class="display-4 mb-3">Our offes for (DS)</h4>
+                <ul class="list-unstyled">
+                  <li class="mb-2">
+                    <button type="button" class="btn btn-outline-success" data-bs-toggle="collapse" data-bs-target="#category-1"
+                    aria-expanded="false" aria-controls="category-1">Category-1</button>
+                    <div class="collapse" id="category-1">
+                      <div class="card card-body bg-dark text-white-50">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quas ratione consequuntur 
+                        dolores accusamus eum, sit modi exercitationem facilis sapiente, voluptatibus voluptate magni rem culpa illum
+                         cupiditate autem? Assumenda, omnis. At sequi quibusdam libero iste
+                         quod quas deserunt vel vero cum neque autem molestias commodi, quis maiores ipsa illum sit.
+                      </div>
+                    </div>
+                  </li>
+                  <li class="mb-2">
+                    <button type="button" class="btn btn-outline-success" data-bs-toggle="collapse" data-bs-target="#category-2"
+                    aria-expanded="false" aria-controls="category-2">Category-2</button>
+                    <div class="collapse" id="category-2">
+                      <div class="card card-body bg-dark text-white-50">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quas ratione consequuntur 
+                        dolores accusamus eum, sit modi exercitationem facilis sapiente, voluptatibus voluptate magni rem culpa illum
+                         cupiditate autem? Assumenda, omnis. At sequi quibusdam libero iste
+                         quod quas deserunt vel vero cum neque autem molestias commodi, quis maiores ipsa illum sit.
+                      </div>
+                    </div>
+                  </li>
+                  <li class="mb-2">
+                    <button type="button" class="btn btn-outline-success" data-bs-toggle="collapse" data-bs-target="#category-3"
+                    aria-expanded="false" aria-controls="category-3">Category-3</button>
+                    <div class="collapse" id="category-3">
+                      <div class="card card-body bg-dark text-white-50">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quas ratione consequuntur 
+                        dolores accusamus eum, sit modi exercitationem facilis sapiente, voluptatibus voluptate magni rem culpa illum
+                         cupiditate autem? Assumenda, omnis. At sequi quibusdam libero iste
+                         quod quas deserunt vel vero cum neque autem molestias commodi, quis maiores ipsa illum sit.
+                      </div>
+                    </div>
+                  </li>
+                  <li class="mb-2">
+                    <button type="button" class="btn btn-outline-success" data-bs-toggle="collapse" data-bs-target="#category-4"
+                    aria-expanded="false" aria-controls="category-4">Category-4</button>
+                    <div class="collapse" id="category-4">
+                      <div class="card card-body bg-dark text-white-50">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quas ratione consequuntur 
+                        dolores accusamus eum, sit modi exercitationem facilis sapiente, voluptatibus voluptate magni rem culpa illum
+                         cupiditate autem? Assumenda, omnis. At sequi quibusdam libero iste
+                         quod quas deserunt vel vero cum neque autem molestias commodi, quis maiores ipsa illum sit.
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+        </section>
+        <!--CONTACT-->
+        <section id="Contact" class="ms-3">
+          <h2 class="font-monospace mt-4">Contact me</h2>
+          <ul class="row list-unstyled text-sm-start text-center">
+            <li class="text-success">Menyhart Media LLT</li>
+            <li class="col-6 p-2"><i class="bi bi-geo-alt text-success"></i>Lorem ipsum dolor sit amet consectetur.</li>
+            <li class="col-6 p-2"><i class="bi bi-telephone text-success"></i>09098665567</li>
+            <li class="col-6 p-2"><i class="bi bi-phone text-success"></i>8786544368</li>
+            <li class="col-6 p-2"><i class="bi bi-envelope text-success"></i>Lorem ipsum dolor sit amet.</li>
+          </ul>
+
+        </section>
+       
+        
+       
+        
+        </main>
+        
+        <!--FOOTER-->
+        <footer class="position-fixed bottom-0 bg-success text-center">
+          <small class="col">&copy; 2020 Menyhart Media. All rights Reserved</small>
+        </footer>
+    
+
+ <!--JS CDN-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" 
+crossorigin="anonymous"></script>
+ <!--script for popovers-->
+ <script>
+     var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+ var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+   return new bootstrap.Popover(popoverTriggerEl)
+ })
+ </script>
+     <!--script for Tooltip-->
+     <script>var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+         var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+           return new bootstrap.Tooltip(tooltipTriggerEl)
+         })</script>
+     
+</body>
+</html>
